@@ -14,13 +14,14 @@ public class Animal {
 		this.movimentacao = movimentacao;
 	}
 
-	/*public void emitirSom() {
-		System.out.println("O animal" + som);
-	}*/
-	
-	public void Info() {
-		System.out.println("\t\tInformações: \nNome: " + nome + "\nIdade: " + idade + " anos" + "\nO animal " + som + "\nO animal " + movimentacao);
+	public void emitirSom() {
+		System.out.println(nome + " está " + som);
 	}
+	
+	public void movimento() {
+		System.out.println(nome + " está " + movimentacao);
+	}
+	
 
 	public String getNome() {
 		return nome;

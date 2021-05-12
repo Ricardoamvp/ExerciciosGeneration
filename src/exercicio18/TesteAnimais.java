@@ -4,17 +4,20 @@ public class TesteAnimais {
 
 	public static void main(String[] args) {
 
-		Cachorro cachorro = new Cachorro("cachorro", 5, "late", "corre");
+		Cachorro cachorro = new Cachorro("cachorro", 5, "latindo", "correndo");
 
-		cachorro.Info();
+		cachorro.emitirSom();
+		cachorro.movimento();
 
-		Cavalo cavalo = new Cavalo("cavalo", 8, "relincha", "corre");
+		Cavalo cavalo = new Cavalo("cavalo", 8, "relinchando", "correndo");
 
-		cavalo.Info();
+		cavalo.emitirSom();
+		cavalo.movimento();
 
-		Preguica preguica = new Preguica("preguica", 3, "emite sons de alta-frequência pelas narinas", "escala");
+		Preguica preguica = new Preguica("preguica", 3, "grunhindo", "escalando");
 
-		preguica.Info();
+		preguica.emitirSom();
+		preguica.movimento();
 	}
 
 }
